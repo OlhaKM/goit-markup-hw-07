@@ -1,0 +1,39 @@
+.list {
+    padding-top: 94px;
+    padding-bottom: 94px;
+} 
+.list-block {
+    display: flex;
+    justify-content: space-between;
+}
+.list-block__item {
+    width: 270px;
+}
+.list-block__decoration {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--brand-color-medium);
+    align-items: center;
+    justify-content: center;
+}
+.list-block__head {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: var(--text-one);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+.list-block__text{
+    color: var(--text-second);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}

@@ -1,0 +1,138 @@
+.near-block {
+    background-color: var(--brand-color-dark);
+}
+.footer {
+    display: flex;
+}
+.logo-block__footer  {
+    color: var(--brand-color-ligth);
+}
+.footer__contacts {
+    margin-right: 70px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.join {
+    margin-top: 72px;
+}
+.join__text {
+    margin-bottom: 20px;
+    color: var(--brand-color-ligth);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height:  1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.adress__list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+.adress-list__item{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 9px;
+}
+.adress-list__item--mail, .adress-list__item--phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress-list__item--adress {
+    color: var(--brand-color-ligth);
+}
+.join__list {
+    display: flex;
+    justify-content: center;
+}
+.join__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--brand-color-ligth);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        background-color: var(--acent-one);
+    }
+}
+
+.join__item+.join__item {
+    margin-left: 10px;
+}
+.form {
+    margin-top: 72px;
+    margin-left: 93px;
+}
+.form__item {
+    display: flex;
+}
+.form__text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brand-color-ligth);
+    padding-bottom: 20px;
+}
+.form__button {
+    border: 0;
+    background: var(--acent-one);
+    color: var(--brand-color-ligth);
+    font-family: 'Roboto', sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    line-height: 1.87;
+    padding: 10px 29px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+}
+.form__imput {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    padding: 15px 16px;
+    &::placeholder {
+        color:  rgba(255, 255, 255, 0.6);
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+    }
+}
+
+.form__button--icon-tg {
+    margin-left: 10px;
+}
